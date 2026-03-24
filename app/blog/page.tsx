@@ -13,7 +13,7 @@ export default async function BlogPage() {
         <SectionHeading
           eyebrow="Writing"
           title="Notes on cloud architecture, payments, and shipping AI features responsibly."
-          description="The blog is MDX-based so the site stays static, content remains versioned, and richer components can be introduced later without changing the platform model."
+          description="Short essays on platform engineering, reliability, cloud architecture, and the discipline required to build trustworthy AI features."
         />
       </MotionFade>
 

@@ -78,25 +78,25 @@ export const featuredStacks = [
 
 export const experienceTimeline = [
   {
-    company: "Global FinTech",
-    role: "Senior / Lead Software Engineer",
-    period: "Most Recent",
-    summary:
-      "Led architecture and modernization efforts across payment-adjacent platforms, event-driven systems, and cloud initiatives where reliability, scale, and traceability were core business requirements."
-  },
-  {
-    company: "Enterprise Telecommunications",
+    company: "FinTech Platforms",
     role: "Senior Software Engineer",
-    period: "Platform Growth",
+    period: "Recent Focus",
     summary:
-      "Designed full-stack and backend capabilities for large customer-facing platforms, helping modernize legacy systems into cleaner APIs, maintainable services, and more responsive product experiences."
+      "Built and modernized payment-adjacent platforms with a strong focus on distributed workflows, event-driven integration, traceability, and production reliability."
   },
   {
-    company: "Production Systems & Data Foundations",
-    role: "Engineer",
-    period: "Earlier Career",
+    company: "Enterprise Product Engineering",
+    role: "Senior Software Engineer",
+    period: "Platform Delivery",
     summary:
-      "Started in data operations and production support, building a foundation in SQL, ETL, automation, monitoring, and operational discipline that later shaped a stronger systems and SRE-oriented engineering mindset."
+      "Delivered backend and full-stack solutions for large customer-facing products, improving maintainability through cleaner APIs, service boundaries, and more responsive application experiences."
+  },
+  {
+    company: "Data and Operations Foundations",
+    role: "Engineer",
+    period: "Early Career",
+    summary:
+      "Built early depth in SQL, ETL, automation, monitoring, and production support, which shaped a practical engineering mindset grounded in operational clarity and systems thinking."
   }
 ] as const;
 

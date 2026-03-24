@@ -12,7 +12,7 @@ export function CtaBanner() {
             Cloud platforms, payment-grade systems, and practical AI.
           </h3>
           <p className="mt-4 text-base leading-8 text-slate-600">
-            The portfolio is static-first today and intentionally shaped to expand into a richer product surface later.
+            Available for roles focused on backend platforms, cloud architecture, and reliable AI-enabled systems.
           </p>
         </div>
         <div className="mt-8 md:mt-0">

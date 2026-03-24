@@ -88,7 +88,7 @@ export default async function HomePage() {
           <SectionHeading
             eyebrow="Featured Work"
             title="Selected systems shaped around reliability, platform thinking, and practical AI."
-            description="Each project is framed like real engineering work: what problem existed, why the architecture matters, and where trade-offs were made."
+            description="These case studies highlight the problem, the architecture behind the solution, and the trade-offs that mattered in implementation."
           />
         </MotionFade>
         <div className="mt-12 grid gap-6 lg:grid-cols-3">
@@ -105,7 +105,7 @@ export default async function HomePage() {
           <SectionHeading
             eyebrow="Core Stack"
             title="Backend depth with credible full-stack and cloud execution."
-            description="The positioning is deliberate: strong systems foundations, product-facing frontend experience, and a trajectory toward broader cloud architecture ownership."
+            description="The stack reflects day-to-day engineering work across backend services, product-facing applications, cloud delivery, and applied AI."
           />
         </MotionFade>
         <div className="mt-12">

@@ -21,8 +21,8 @@ export default function ContactPage() {
       <MotionFade>
         <SectionHeading
           eyebrow="Contact"
-          title="Keep the contact flow direct and lightweight."
-          description="This page stays intentionally minimal: social channels only, no embedded form, no extra friction."
+          title="Reach out for engineering, platform, and cloud-focused work."
+          description="LinkedIn and GitHub are the fastest ways to connect, review experience, and continue the conversation."
         />
       </MotionFade>
 
@@ -35,8 +35,7 @@ export default function ContactPage() {
                 Open to senior cloud, platform, and AI-focused opportunities.
               </h3>
               <p className="mt-4 max-w-2xl text-sm leading-7 text-slate-600">
-                If the work resonates, the best path is through LinkedIn or GitHub. The page stays static and clean,
-                while preserving a professional way to reach out.
+                If the work aligns, reach out through LinkedIn or review technical work on GitHub.
               </p>
             </div>
             <div className="grid gap-4 sm:grid-cols-2">

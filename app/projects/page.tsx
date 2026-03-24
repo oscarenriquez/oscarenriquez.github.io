@@ -23,7 +23,7 @@ export default async function ProjectsPage() {
         <SectionHeading
           eyebrow="Projects"
           title="Architecture-led case studies instead of gallery pieces."
-          description="The framing stays senior: problem context, implementation trade-offs, and why the chosen architecture fits production constraints."
+          description="Each project focuses on production constraints, implementation decisions, and the architectural trade-offs behind the outcome."
         />
       </MotionFade>
 

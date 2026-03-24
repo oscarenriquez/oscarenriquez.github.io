@@ -67,16 +67,30 @@ export default async function HomePage() {
           </MotionFade>
 
           <MotionFade delay={0.08} className="mx-auto w-full max-w-[360px] lg:mx-0">
-            <div className="surface overflow-hidden rounded-[2rem] border border-slate-200/70 p-3 shadow-[var(--shadow-soft)]">
-              <div className="relative aspect-[4/5] overflow-hidden rounded-[1.5rem] bg-slate-100">
-                <Image
-                  src="/images/profile.jpeg"
-                  alt="Portrait of Oscar Enriquez"
-                  fill
-                  priority
-                  className="object-cover"
-                  sizes="(max-width: 1024px) 320px, 360px"
-                />
+            <div className="space-y-4">
+              <div className="surface overflow-hidden rounded-[2rem] border border-slate-200/70 p-3 shadow-[var(--shadow-soft)]">
+                <div className="relative aspect-[4/5] overflow-hidden rounded-[1.5rem] bg-slate-100">
+                  <Image
+                    src="/images/profile.jpeg"
+                    alt="Portrait of Oscar Enriquez"
+                    fill
+                    priority
+                    className="object-cover"
+                    sizes="(max-width: 1024px) 320px, 360px"
+                  />
+                </div>
+              </div>
+              <div className="surface rounded-[1.5rem] border border-slate-200/70 px-5 py-4 shadow-[var(--shadow-soft)]">
+                <p className="text-sm leading-6 text-slate-600">
+                  Learn more about my background across payments, platform architecture, and full-stack delivery.
+                </p>
+                <Link
+                  href="/about"
+                  className="mt-3 inline-flex items-center gap-2 text-sm font-medium text-slate-950 transition-colors hover:text-slate-700"
+                >
+                  About
+                  <ArrowRight className="size-4" />
+                </Link>
               </div>
             </div>
           </MotionFade>

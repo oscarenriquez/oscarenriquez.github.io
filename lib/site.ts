@@ -22,7 +22,8 @@ export const siteConfig = {
   ],
   social: {
     github: "https://github.com/oscarenriquez",
-    linkedin: "https://www.linkedin.com/in/oscarenriquez/"
+    linkedin: "https://www.linkedin.com/in/oscarenriquez/",
+    credly: "https://www.credly.com/users/oscarenriquez/badges#credly"
   },
   nav: [
     { href: "/", label: "Home" },
@@ -111,5 +112,32 @@ export const skillGroups = [
   {
     title: "AI",
     items: ["OpenAI APIs", "Azure AI", "Prompt Workflows", "Retrieval Patterns", "AI Product Design"]
+  }
+] as const;
+
+export const certifications = [
+  {
+    name: "Microsoft Certified: Azure Fundamentals",
+    shortName: "AZ-900",
+    issuer: "Microsoft",
+    href: "https://www.credly.com/org/microsoft-certification/badge/microsoft-certified-azure-fundamentals"
+  },
+  {
+    name: "Microsoft Certified: Azure Data Fundamentals",
+    shortName: "DP-900",
+    issuer: "Microsoft",
+    href: "https://www.credly.com/org/microsoft-certification/badge/microsoft-certified-azure-data-fundamentals"
+  },
+  {
+    name: "Microsoft Certified: Azure AI Fundamentals",
+    shortName: "AI-900",
+    issuer: "Microsoft",
+    href: "https://www.credly.com/org/microsoft-certification/badge/microsoft-certified-azure-ai-fundamentals"
+  },
+  {
+    name: "Google Cloud Associate Cloud Engineer",
+    shortName: "ACE",
+    issuer: "Google Cloud",
+    href: "https://www.credly.com/org/google-cloud/badge/associate-cloud-engineer-certification"
   }
 ] as const;

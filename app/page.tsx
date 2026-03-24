@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Award } from "lucide-react";
 import type { Metadata } from "next";
 import { Container } from "@/components/site/container";
 import { MotionFade } from "@/components/site/motion-fade";
@@ -48,6 +48,17 @@ export default async function HomePage() {
                 <Button variant="secondary" size="lg">
                   Contact
                 </Button>
+              </Link>
+            </div>
+            <div className="mt-6">
+              <Link
+                href={siteConfig.social.credly}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-2 text-sm text-slate-500 transition-colors hover:text-slate-950"
+              >
+                <Award className="size-4" />
+                View certifications on Credly
               </Link>
             </div>
           </MotionFade>

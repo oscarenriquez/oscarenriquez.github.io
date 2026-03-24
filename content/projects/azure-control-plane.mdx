@@ -1,0 +1,33 @@
+---
+title: "Azure-Native Platform Foundation"
+summary: "A cloud-native application baseline designed for deployment consistency, security, and operational clarity."
+publishedAt: "2026-02-18"
+featured: true
+problem: "Teams were moving quickly but lacked a stable platform baseline for environments, deployments, and diagnostics."
+solution: "Defined a cloud foundation with repeatable delivery pipelines, environment isolation, and platform-level telemetry."
+architecture: "The system centered on a clean separation between app services, shared infrastructure, and release workflows."
+github: "https://github.com/oscarenriquez"
+stack:
+  - .NET 8
+  - Azure App Service
+  - Azure Monitor
+  - GitHub Actions
+  - Bicep
+tags:
+  - Azure
+  - Platform
+---
+
+## Context
+
+A senior platform contribution is often less about a single feature and more about reducing friction for every future feature.
+
+This project focused on turning cloud deployment into a disciplined product surface rather than an ad hoc collection of scripts.
+
+## Architecture
+
+The baseline included infrastructure as code, deployment workflows, and environment-aware configuration boundaries. Application teams could ship without re-solving release engineering each time.
+
+## Trade-offs
+
+Centralized platform patterns can drift into over-control. The design kept the baseline opinionated where operational risk was high, while leaving room for application-level autonomy.

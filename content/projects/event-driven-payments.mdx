@@ -1,0 +1,39 @@
+---
+title: "Event-Driven Payment Reliability Layer"
+summary: "A payment-oriented platform design focused on traceability, resilience, and downstream consistency."
+publishedAt: "2026-03-10"
+featured: true
+problem: "Different payment lifecycle events needed to stay consistent across services without coupling every consumer to the core transaction path."
+solution: "Introduced an event-driven backbone with idempotent consumers, durable retries, and explicit operational telemetry."
+architecture: "Core payment processing remained synchronous where correctness mattered most, while side effects moved to asynchronous domain events."
+github: "https://github.com/oscarenriquez"
+stack:
+  - Java
+  - Spring Boot
+  - Kafka
+  - PostgreSQL
+  - OpenTelemetry
+tags:
+  - Payments
+  - Event-Driven
+---
+
+## Context
+
+Payment systems punish ambiguity. If a transaction state is unclear, support, reconciliation, and downstream consumers all inherit the cost.
+
+The design goal was not only throughput. It was operational trust: every event should be attributable, retryable, and safe to process more than once.
+
+## Architecture
+
+The synchronous path stayed narrow:
+
+- validate request
+- persist authoritative transaction state
+- publish a domain event for non-blocking side effects
+
+Everything outside that correctness boundary moved to asynchronous consumers. That reduced coupling without pretending every workflow should be eventually consistent.
+
+## Trade-offs
+
+Event-driven architecture improved scalability and service autonomy, but it also increased debugging complexity. The answer was not more abstraction. The answer was better observability, correlation IDs, replay tooling, and explicit failure handling.

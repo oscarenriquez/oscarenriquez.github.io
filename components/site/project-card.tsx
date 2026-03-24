@@ -1,5 +1,3 @@
-import Link from "next/link";
-import { ArrowUpRight } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import type { ContentItem, ProjectFrontmatter } from "@/lib/content";
@@ -13,17 +11,7 @@ export function ProjectCard({
     <Card className="h-full">
       <CardContent className="flex h-full flex-col gap-6">
         <div className="space-y-4">
-          <div className="flex items-center justify-between gap-4">
-            <h3 className="text-2xl font-semibold tracking-[-0.04em] text-slate-950">{project.title}</h3>
-            <Link
-              href={project.github}
-              target="_blank"
-              rel="noreferrer"
-              className="text-slate-400 transition-colors hover:text-slate-900"
-            >
-              <ArrowUpRight className="size-5" />
-            </Link>
-          </div>
+          <h3 className="text-2xl font-semibold tracking-[-0.04em] text-slate-950">{project.title}</h3>
           <p className="text-sm leading-7 text-slate-600">{project.summary}</p>
         </div>
         <div className="space-y-3 text-sm text-slate-700">

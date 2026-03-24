@@ -22,8 +22,8 @@ export default async function ProjectsPage() {
       <MotionFade>
         <SectionHeading
           eyebrow="Projects"
-          title="Architecture-led case studies instead of gallery pieces."
-          description="Each project focuses on production constraints, implementation decisions, and the architectural trade-offs behind the outcome."
+          title="Confidentiality-safe case studies centered on impact."
+          description="These project summaries focus on business impact, system design, and engineering scope without exposing internal implementation details that should remain private."
         />
       </MotionFade>
 

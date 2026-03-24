@@ -9,7 +9,7 @@ export function CtaBanner() {
         <div className="max-w-2xl">
           <p className="text-sm uppercase tracking-[0.2em] text-slate-400">Open to high-impact roles</p>
           <h3 className="mt-4 text-3xl font-semibold tracking-[-0.04em] text-slate-950">
-            Cloud platforms, payment-grade systems, and practical AI.
+            Cloud platforms, full-stack development, payment-grade systems, and practical AI.
           </h3>
           <p className="mt-4 text-base leading-8 text-slate-600">
             Available for roles focused on backend platforms, cloud architecture, and reliable AI-enabled systems.

@@ -1,0 +1,35 @@
+---
+title: "Event-Driven Notification Backbone"
+summary: "Built an asynchronous notification flow that processed financial events reliably at scale while reducing coupling between critical systems."
+publishedAt: "2026-03-12"
+featured: true
+problem: "Notification workflows tied to payments and donations needed to scale without adding synchronous dependencies to sensitive transaction paths."
+solution: "Introduced an event-driven pipeline that captured financial events, published them to messaging infrastructure, and processed notifications asynchronously."
+architecture: "The design centered on queue-based messaging, asynchronous consumers, and clear integration boundaries so event producers and notification services could evolve independently."
+stack:
+  - Java
+  - Spring Boot
+  - Messaging
+  - Apache MQ
+  - Distributed Systems
+tags:
+  - Messaging
+  - Backend
+  - Event-Driven
+---
+
+## Context
+
+Financial notification systems need to be reliable without slowing down the transaction flows that trigger them.
+
+This project focused on moving notification processing into an asynchronous architecture that improved resilience while keeping operational behavior understandable.
+
+## Impact
+
+- Supported reliable high-volume processing for payment and donation events
+- Reduced synchronous dependencies across critical systems
+- Improved resilience and scalability for notification delivery
+
+## Contribution
+
+I designed the event-driven flow, integrated the participating systems, and contributed across requirements, implementation, testing, and stakeholder communication.

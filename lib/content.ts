@@ -19,7 +19,6 @@ export type ProjectFrontmatter = BaseFrontmatter & {
   problem: string;
   solution: string;
   architecture: string;
-  github: string;
   stack: string[];
 };
 

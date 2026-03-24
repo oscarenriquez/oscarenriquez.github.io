@@ -55,6 +55,16 @@ export const featuredStacks = [
     logo: "https://cdn.simpleicons.org/nodedotjs"
   },
   {
+    name: "React",
+    detail: "Product-facing full-stack delivery",
+    logo: "https://cdn.simpleicons.org/react"
+  },
+  {
+    name: "Angular",
+    detail: "Enterprise SPA development",
+    logo: "https://cdn.simpleicons.org/angular"
+  },
+  {
     name: "Azure",
     detail: "Cloud-native platform focus",
     logo: "https://cdn-icons-png.flaticon.com/512/873/873107.png"
@@ -63,16 +73,6 @@ export const featuredStacks = [
     name: "Google Cloud",
     detail: "Multi-cloud perspective",
     logo: "https://cdn.simpleicons.org/googlecloud"
-  },
-  {
-    name: "OpenAI",
-    detail: "Applied AI workflows",
-    logo: "https://cdn-icons-png.flaticon.com/512/11865/11865326.png"
-  },
-  {
-    name: "Docker",
-    detail: "Portable delivery pipelines",
-    logo: "https://cdn.simpleicons.org/docker"
   }
 ] as const;
 
@@ -104,6 +104,10 @@ export const skillGroups = [
   {
     title: "Backend",
     items: ["Java", "Spring Boot", ".NET 8", "Node.js", "REST APIs", "Distributed Systems"]
+  },
+  {
+    title: "Frontend",
+    items: ["React", "Angular", "TypeScript", "SPA Architecture", "Design Systems", "Full-Stack Delivery"]
   },
   {
     title: "Cloud",

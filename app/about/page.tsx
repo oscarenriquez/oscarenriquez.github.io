@@ -22,7 +22,7 @@ export default function AboutPage() {
         <SectionHeading
           eyebrow="About"
           title="Senior engineer with a systems mindset, now leaning harder into cloud and AI."
-          description="My background is rooted in backend engineering and payment-critical environments. The next layer is broader platform ownership: cloud architecture, AI integration, and product thinking that still respects operational realities."
+          description="My background is rooted in backend engineering and payment-critical environments, with meaningful full-stack delivery across React and Angular when product surfaces mattered. The next layer is broader platform ownership: cloud architecture, AI integration, and product thinking that still respects operational realities."
         />
       </MotionFade>
 
@@ -33,7 +33,7 @@ export default function AboutPage() {
               <h3 className="text-2xl font-semibold tracking-[-0.04em] text-slate-950">Experience</h3>
               <p className="mt-4 max-w-2xl text-sm leading-7 text-slate-600">
                 My path has been less about employer names and more about increasing system complexity, business
-                responsibility, and architectural ownership over time.
+                responsibility, architectural ownership, and end-to-end delivery over time.
               </p>
               <div className="mt-8 space-y-8">
                 {experienceTimeline.map((item) => (

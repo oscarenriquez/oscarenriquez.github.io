@@ -37,8 +37,8 @@ export default async function HomePage() {
               </h1>
             </div>
             <p className="mt-8 max-w-2xl text-lg leading-9 text-slate-600">
-              I build reliable backend platforms, cloud-native systems, and AI-enabled products with the same rigor
-              expected in payments: clear trade-offs, strong observability, and production discipline.
+              I build reliable backend platforms, cloud-native systems, and full-stack product experiences with the
+              same rigor expected in payments: clear trade-offs, strong observability, and production discipline.
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
               <Link href="/projects">
@@ -104,8 +104,8 @@ export default async function HomePage() {
         <MotionFade>
           <SectionHeading
             eyebrow="Core Stack"
-            title="Backend depth with a cloud and AI trajectory."
-            description="The positioning is deliberate: a senior engineer with strong systems foundations moving toward cloud architecture and applied AI ownership."
+            title="Backend depth with credible full-stack and cloud execution."
+            description="The positioning is deliberate: strong systems foundations, product-facing frontend experience, and a trajectory toward broader cloud architecture ownership."
           />
         </MotionFade>
         <div className="mt-12">

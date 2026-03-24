@@ -22,7 +22,7 @@ export const siteConfig = {
   ],
   social: {
     github: "https://github.com/oscarenriquez",
-    linkedin: "https://www.linkedin.com/in/oscarenriquez/",
+    linkedin: "https://www.linkedin.com/in/its-oscar-enriquez/",
     credly: "https://www.credly.com/users/oscarenriquez/badges#credly"
   },
   nav: [

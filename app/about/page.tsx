@@ -4,7 +4,7 @@ import { Container } from "@/components/site/container";
 import { MotionFade } from "@/components/site/motion-fade";
 import { SectionHeading } from "@/components/site/section-heading";
 import { Card, CardContent } from "@/components/ui/card";
-import { certifications, experienceTimeline, skillGroups } from "@/lib/site";
+import { certifications, education, experienceTimeline, skillGroups } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "About",
@@ -91,6 +91,22 @@ export default function AboutPage() {
                           <ArrowUpRight className="mt-0.5 size-4 shrink-0 text-slate-400" />
                         </div>
                       </a>
+                    ))}
+                  </div>
+                </div>
+                <div>
+                  <p className="text-sm font-medium text-slate-950">Education</p>
+                  <div className="mt-4 grid gap-3">
+                    {education.map((item) => (
+                      <div
+                        key={item.degree}
+                        className="rounded-[1.25rem] border border-slate-200 bg-white/90 px-4 py-4"
+                      >
+                        <p className="text-sm font-medium text-slate-950">{item.degree}</p>
+                        <p className="mt-1 text-sm text-slate-500">
+                          {item.level} · {item.focus}
+                        </p>
+                      </div>
                     ))}
                   </div>
                 </div>

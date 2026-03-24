@@ -30,9 +30,12 @@ export default async function HomePage() {
         <div className="grid items-center gap-12 lg:grid-cols-[minmax(0,1.1fr)_360px] lg:gap-16">
           <MotionFade className="max-w-4xl">
             <p className="text-sm uppercase tracking-[0.22em] text-slate-400">Senior Software Engineer</p>
-            <h1 className="mt-6 text-5xl font-semibold tracking-[-0.06em] text-slate-950 md:text-7xl">
-              {siteConfig.title}
-            </h1>
+            <div className="mt-6 space-y-3">
+              <p className="text-2xl font-medium tracking-[-0.04em] text-slate-700 md:text-3xl">{siteConfig.name}</p>
+              <h1 className="text-5xl font-semibold tracking-[-0.06em] text-slate-950 md:text-7xl">
+                {siteConfig.title}
+              </h1>
+            </div>
             <p className="mt-8 max-w-2xl text-lg leading-9 text-slate-600">
               I build reliable backend platforms, cloud-native systems, and AI-enabled products with the same rigor
               expected in payments: clear trade-offs, strong observability, and production discipline.

@@ -141,3 +141,16 @@ export const certifications = [
     href: "https://www.credly.com/org/google-cloud/badge/associate-cloud-engineer-certification"
   }
 ] as const;
+
+export const education = [
+  {
+    degree: "Master Degree in Security Information Technology",
+    level: "Graduate",
+    focus: "Information security, risk, and technology governance"
+  },
+  {
+    degree: "Degree in Information Technology",
+    level: "Undergraduate",
+    focus: "Software engineering, systems, and applied technology foundations"
+  }
+] as const;

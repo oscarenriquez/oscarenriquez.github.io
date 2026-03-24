@@ -1,8 +1,18 @@
+import type { Metadata } from "next";
 import { Container } from "@/components/site/container";
 import { MotionFade } from "@/components/site/motion-fade";
 import { BlogCard } from "@/components/site/blog-card";
 import { SectionHeading } from "@/components/site/section-heading";
 import { getBlogPosts } from "@/lib/content";
+
+export const metadata: Metadata = {
+  title: "Writing",
+  description:
+    "Essays by Oscar Enriquez on cloud architecture, platform engineering, reliability, and building trustworthy AI systems.",
+  alternates: {
+    canonical: "/blog"
+  }
+};
 
 export default async function BlogPage() {
   const posts = await getBlogPosts();

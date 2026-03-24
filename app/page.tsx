@@ -13,9 +13,9 @@ import { getFeaturedProjects } from "@/lib/content";
 import { siteConfig } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Senior Software Engineer | Distributed Systems, GCP, FinTech",
+  title: "Senior Software Engineer | Cloud, AI, Distributed Systems",
   description:
-    "Portfolio of Oscar Enriquez, a Senior Software Engineer specializing in distributed systems, cloud architecture on GCP, backend engineering, and payment-grade platforms.",
+    "Oscar Enriquez is a senior software engineer focused on cloud, AI, distributed systems, and reliable backend platforms.",
   alternates: {
     canonical: "/"
   }

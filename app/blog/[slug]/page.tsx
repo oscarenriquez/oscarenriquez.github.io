@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const post = await getBlogPostBySlug(slug);
 
     return {
-      title: `${post.frontmatter.title} | Oscar Enriquez`,
+      title: post.frontmatter.title,
       description: post.frontmatter.summary
     };
   } catch {

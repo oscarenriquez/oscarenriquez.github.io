@@ -78,6 +78,13 @@ export const featuredStacks = [
 
 export const experienceTimeline = [
   {
+    company: "Frontsteps",
+    role: "Senior Staff Software Engineer · System Designer · Technical Writer",
+    period: "FinTech + PropTech",
+    summary:
+      "Led architecture and delivery for payment experiences inside a property management platform, shaping Stripe and ACH workflows, modernizing Angular and React surfaces, integrating with .NET-backed services, and documenting technical decisions that improved scalability, reliability, and cross-team execution."
+  },
+  {
     company: "FinTech Platforms",
     role: "Senior Software Engineer",
     period: "Recent Focus",
@@ -103,7 +110,7 @@ export const experienceTimeline = [
 export const skillGroups = [
   {
     title: "Backend",
-    items: ["Java", "Spring Boot", ".NET 8", "Node.js", "REST APIs", "Distributed Systems"]
+    items: ["Java", "Spring Boot", ".NET 8", "Node.js", "REST APIs", "Distributed Systems", "Stripe"]
   },
   {
     title: "Frontend",
@@ -111,7 +118,7 @@ export const skillGroups = [
   },
   {
     title: "Cloud",
-    items: ["Azure", "GCP", "Containers", "CI/CD", "Observability", "Cloud-Native Architecture"]
+    items: ["Azure", "GCP", "Containers", "CI/CD", "Observability", "Cloud-Native Architecture", "Payment Systems"]
   },
   {
     title: "AI",

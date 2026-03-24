@@ -1,0 +1,36 @@
+---
+title: "ACH Enrollment and Payment Orchestration Platform"
+summary: "Built a more reliable ACH setup and payment-processing flow for a resident platform that needed stronger scale, transparency, and operational control."
+publishedAt: "2026-03-23"
+featured: true
+problem: "ACH enrollment and payment execution involved multiple steps, edge cases, and external dependencies that made failures harder to reason about and recover from."
+solution: "Designed clearer orchestration across account setup, payment authorization, and downstream processing so the platform could handle ACH workflows with better resilience and visibility."
+architecture: "The design used API-driven orchestration in .NET services, integrated payment-provider capabilities, and Azure-based operational services to separate enrollment logic, transaction processing, and status tracking."
+stack:
+  - .NET
+  - REST APIs
+  - Azure
+  - ACH
+  - Stripe
+  - Distributed Systems
+tags:
+  - ACH
+  - Payments
+  - Systems Design
+---
+
+## Context
+
+ACH flows are business-critical, but they also expose the platform to latency, verification issues, and failure states that need to be handled with precision.
+
+The objective here was not just to process payments. It was to make the lifecycle understandable, observable, and durable enough for a high-trust financial experience.
+
+## Impact
+
+- Strengthened reliability for ACH onboarding and payment execution
+- Improved visibility into transaction states for support and operations teams
+- Reduced fragility across multi-step payment workflows
+
+## Contribution
+
+I designed the orchestration model, helped define the integration boundaries, and wrote technical documentation that made the workflow easier for engineers and stakeholders to maintain over time.
